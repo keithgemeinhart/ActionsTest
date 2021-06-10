@@ -26,4 +26,4 @@ jobs:
     - name: Build
       run: dotnet build MathLibrary/MathLibrary.sln  --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-restore
+      run: dotnet test MathLibrary/MathLibrary.sln --no-restore
