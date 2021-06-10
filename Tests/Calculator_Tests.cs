@@ -25,5 +25,24 @@ namespace Tests
 
             Assert.AreEqual(10, result);
         }
+
+        [TestMethod]
+        public void NewTest()
+        {
+            var calc = new Calculator();
+
+            var result = calc.Double(2);
+
+            Assert.AreEqual(4, result);
+        }
+
+        public void OtherTest()
+        {
+            var calc = new Calculator();
+
+            var result = calc.Double(3);
+
+            Assert.AreEqual(6, result);
+        }
     }
 }
