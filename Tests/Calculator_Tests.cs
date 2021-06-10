@@ -36,11 +36,22 @@ namespace Tests
             Assert.AreEqual(4, result);
         }
 
+        [TestMethod]
         public void OtherTest()
         {
             var calc = new Calculator();
 
             var result = calc.Double(3);
+
+            Assert.AreEqual(6, result);
+        }
+
+        [TestMethod]
+        public void TestyMcTestFace()
+        {
+            var calc = new Calculator();
+
+            var result = calc.Double(9);
 
             Assert.AreEqual(6, result);
         }
