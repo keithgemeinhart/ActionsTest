@@ -36,6 +36,7 @@ namespace Tests
             Assert.AreEqual(4, result);
         }
 
+        [TestMethod]
         public void OtherTest()
         {
             var calc = new Calculator();
@@ -45,6 +46,7 @@ namespace Tests
             Assert.AreEqual(6, result);
         }
 
+        [TestMethod]
         public void TestyMcTestFace()
         {
             var calc = new Calculator();
