@@ -23,7 +23,7 @@ namespace Tests
 
             var result = sut.Double(5);
 
-            Assert.AreEqual(20, result);
+            Assert.AreEqual(10, result);
         }
     }
 }
