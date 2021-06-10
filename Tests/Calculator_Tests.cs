@@ -15,5 +15,15 @@ namespace Tests
 
             Assert.AreEqual(20, result);
         }
+
+        [TestMethod]
+        public void ExpectedToFailOnPurpose()
+        {
+            var sut = new Calculator();
+
+            var result = sut.Double(5);
+
+            Assert.AreEqual(20, result);
+        }
     }
 }
