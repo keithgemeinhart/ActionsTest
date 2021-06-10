@@ -23,3 +23,5 @@ jobs:
     - name: Restore 2
       working-directory: Tests/
       run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
