@@ -24,4 +24,4 @@ jobs:
       working-directory: Tests/
       run: dotnet restore
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build MathLibrary/MathLibrary.sln  --configuration Release --no-restore
