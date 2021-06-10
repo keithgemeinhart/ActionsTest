@@ -17,6 +17,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
-    - name: Restore
+    - name: Restore 1
       working-directory: MathLibrary/
+      run: dotnet restore
+    - name: Restore 2
+      working-directory: Tests/
       run: dotnet restore
