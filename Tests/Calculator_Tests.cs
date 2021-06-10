@@ -44,5 +44,14 @@ namespace Tests
 
             Assert.AreEqual(6, result);
         }
+
+        public void TestyMcTestFace()
+        {
+            var calc = new Calculator();
+
+            var result = calc.Double(9);
+
+            Assert.AreEqual(6, result);
+        }
     }
 }
